@@ -14,11 +14,15 @@
     font-size: 55px;
     font-family: var(--main-font);
     letter-spacing: 1.5px;
+    margin-bottom: 16px;
 }
 .promo_wrapper__text{
     font-size: 22px;
     font-family: var(--main-font); 
     line-height: 1.4;
+    letter-spacing: 0.4px;
+    margin: 0 0 32px 0;
+    font-weight: 300;
 }
 .promo_wrapper__btn{
     color: inherit;

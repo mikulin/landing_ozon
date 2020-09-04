@@ -1,0 +1,53 @@
+.features{
+    margin: 80px 8% 134px 8%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4%;
+}
+.features__h2{
+    grid-column: 1/5;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 46px;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+.feature_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature_card__img{
+    width: 72px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.feature_card__img_lider{
+    background-image: url(../images/Icons/cup.svg);
+}
+.feature_card__img_expert{
+    background-image: url(../images/Icons/Expert.svg);
+}
+.feature_card_now{
+    background-image: url(../images/Icons/clock\ 2.svg);
+}
+.feature_card_mentors{
+    background-image: url(../images/Icons/human.svg);
+}
+.feature_card__title{
+    margin: 32px 0 0 0;
+    font-size: 24px;
+    font-family: var(--main-font);
+    letter-spacing: 0.6px;
+}
+.feature_card__text{
+    text-align: center;
+    color: var(--second-bg-dark);
+    font-family: var(--main-font);
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 16px 0 0 0;
+}
