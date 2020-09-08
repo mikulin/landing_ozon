@@ -1,0 +1,49 @@
+.footer {
+    height: 220px;
+    background-color: #001A34;
+    display: flex;
+    align-items: center;
+    padding: 86px 4% 76px 7%;
+    box-sizing: border-box;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    background-image: url('../images/Logo-footer.png');
+    height: 58px;
+    width:182px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.copyright {
+    width: 26%;
+}
+
+.copyright__text {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    color: white;
+    margin: 0;
+}
+
+.social {
+    width: fit-content;
+}
+
+.footer-second-logo {
+    background-image: url('../images/Ozon_logo.png');
+    height: 23px;
+    width: 107px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
