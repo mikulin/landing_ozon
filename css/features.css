@@ -1,0 +1,35 @@
+.features {
+    font-family: var(--main-font);
+    width: 73%;
+    margin: var(--desktop-block-Y-margin) auto var(--desktop-block-Y-margin) auto;
+}
+
+.features__title {
+    text-align: center;
+    font-size: var(--desktop-text-XL);
+    margin-bottom: 64px;
+}
+
+.features__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;    
+}
+
+.features__items__item {
+    width: 240px;
+    text-align: center;
+}
+
+.features__items__item__img{
+    width: 72px;
+}
+
+.features__items__item__title {
+    font-size: var(--desktop-text-L);
+}
+
+.features__items__item__text {
+    font-size: var(--desktop-text-M);
+    line-height: 1.4;
+}

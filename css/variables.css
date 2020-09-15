@@ -6,6 +6,7 @@
 :root {
     --main-font: "Raleway", sans-serif;
     --desktop-text: 14px;
+    --desktop-text-M: 18px; 
     --desktop-text-button: 22px;
     --desktop-text-L: 24px;
     --desktop-text-XL: 46px;
