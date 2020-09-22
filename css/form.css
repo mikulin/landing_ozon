@@ -1,0 +1,72 @@
+.formWrapper {
+    font-family: var(--main-font);
+    background-color: #EFF3F6;
+    width: 100%;
+    padding-top: var(--desktop-block-Y-margin);
+    padding-bottom: var(--desktop-block-Y-margin);
+}
+
+.formWrapper__title {
+    text-align: center;
+    font-size: var(--desktop-text-XL);
+    margin-bottom: 64px;
+}
+
+.formWrapper__apply {
+    width: 456px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formWrapper__apply_input, .formWrapper__apply_select {
+    height: 56px;
+    margin-bottom: 32px;
+    color: #1A3047;
+    border: 1px solid #B2BAC2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.formWrapper__apply_select {
+    appearance: none;
+    background: url(../images/Icons/arrow.png) no-repeat white;
+    background-position-x: 96%;
+    background-position-y: 52%;
+}
+
+.formWrapper__apply_input::placeholder {
+    opacity: 1;
+}
+
+/* Не сработало в firefox
+.formWrapper__apply_option {
+    appearance: none;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: var(--font-main-color)
+}
+
+.formWrapper__apply_optionOFF {
+    color: #667585;
+}
+*/
+
+
+.formWrapper__apply_button {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 254px;
+    background-color: var(--primary-color);
+    color: var(--font-invert-color);
+    font-size: var(--desktop-text-button);
+    border: none;
+    padding: 20px 30px;
+    font-weight: 500;
+    border-radius: 8px;
+    letter-spacing: 0.4px;
+}

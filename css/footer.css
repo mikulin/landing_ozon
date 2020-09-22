@@ -1,0 +1,38 @@
+.footerWrapper {
+    background-color: var(--font-main-color);
+    width: 100%;
+    padding-top: var(--desktop-block-Y-margin);
+    padding-bottom: var(--desktop-block-Y-margin);
+}
+
+.footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    background-image: url("../images/Logo-footer.png");
+    height: 58px;
+    width: 181px;
+    background-size: contain;
+}
+
+.footer__info {
+    font-family: var(--main-font);
+    color: var(--font-invert-color);
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+
+.footer__social img {
+    margin: 0 4px;
+}
+
+.footer__logoOzon {
+    background-image: url("../images/Ozon_logo.png");
+    height: 24px;
+    width: 108px;
+    background-size: contain;
+}
